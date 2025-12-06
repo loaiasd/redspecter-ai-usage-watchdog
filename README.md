@@ -90,7 +90,8 @@ Features:
 - Color-coded severity  
 - Keyboard controls
 
-![AI Usage Watchdog Screenshot](https://github.com/user-attachments/assets/f8326e38-b900-4e8d-8e4f-1ddf0e91981b)
+
+![Screenshot 2025-12-06 211018](https://github.com/user-attachments/assets/153d7b82-3d46-40a6-a09b-94c743d00785)
 
 
 
