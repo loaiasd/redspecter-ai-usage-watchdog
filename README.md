@@ -46,26 +46,25 @@ Together, these form the **Red Specter Purple Team AI Defense Suite**.
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
-Install requirement:
+### Install dependency
 
 ```bash
 sudo apt install python3-psutil
-Run a single scan:
-
+Run a single scan (debug)
+bash
+Copy code
 cd agent
 ./redspecter_ai_usage_watchdog.py --once --debug
-
-
-Run continuously:
-
+Run continuously
+bash
+Copy code
 ./redspecter_ai_usage_watchdog.py --interval 15
-
-📝 Logs
+Logs
+text
+Copy code
 ~/.redspecter_ai_watchdog/logs/events.jsonl
-
-
 Each event is a JSON object including:
 
 Timestamp
@@ -82,73 +81,49 @@ Privacy posture:
 
 ❌ No file/document contents
 
-✔ Only metadata
-### 🔍 Live TUI Dashboard (v0.2)
+✅ Only metadata
 
-Features:
-- Auto-refresh (every 3s)
-- Color-coded severity  
-- Keyboard controls
-
-
-![AI Usage Watchdog Screenshot](images/ai_watchdog_dashboard.jpg)
-
-
-
-
-A real-time terminal dashboard to view AI usage events:
-
-```bash
+🔍 Live TUI Dashboard (v0.2)
+bash
+Copy code
 cd tools
 ./watchdog_dashboard.py
 Features:
 
 Auto-refreshing view (every 3s)
 
-Risk-based color coding (🟩 LOW / 🟨 MED / 🟥 HIGH)
+Risk-based color coding (LOW / MED / HIGH)
 
 Keyboard controls:
-• q → quit
-• r → refresh immediately
+
+q → quit
+
+r → refresh immediately
 
 This provides a quick SOC-style view into AI usage on the endpoint.
 
-
----
-
-👆 That’s it.  
-Small, professional, discoverable.
-
-Later, when we capture a screenshot, we’ll drop it right below as:
-
-
-
-
-
-🧭 Roadmap
+🗺 Roadmap
 Version	Goal	Status
-v0.1 (Current)	Agent MVP	✔
+v0.1	Agent MVP	✔
 v0.2	Dashboard viewer + SIEM export	🚧
 v0.3	Policies + central aggregation	⏳
-v1.0	Public hardened release	🔜
+v1.0	Public hardened release	⏳
 
-See ROADMAP.md
- for full details.
+See ROADMAP.md for full details.
 
-🛡️ Purple Team Mission
-
+🎯 Purple Team Mission
 Offense-driven defense.
-
 We use adversarial insight to design better defensive controls.
 
 Always authorized. Always ethical.
 
 ❤️ Support Red Specter
+If you find this useful and want to support further development:
 
-
-💼 PayPal: https://paypal.me/richardbarron1747
+PayPal: https://paypal.me/richardbarron1747
 
 Your support helps me build more tools like this — thank you!
 
-Always authorized. Always ethical. Always learning. ⚔️
-Stay Spectral. 👁‍🗨
+yaml
+Copy code
+
