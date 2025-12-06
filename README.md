@@ -91,7 +91,7 @@ Features:
 - Keyboard controls
 
 
-![Screenshot 2025-12-06 211018](https://github.com/user-attachments/assets/153d7b82-3d46-40a6-a09b-94c743d00785)
+Images
 
 
 
