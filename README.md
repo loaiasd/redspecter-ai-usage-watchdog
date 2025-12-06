@@ -1,57 +1,52 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/RichardBarron27/red-specter-offensive-framework/main/assets/red-specter-logo.png" alt="Red Specter Logo" width="200">
+</p>
+
 # 🛡️ Red Specter – AI Usage Watchdog
+Part of the Red Specter Purple Team AI Defense Suite
 
-Part of the **Red Specter Purple Team AI Defense Suite**  
-**Offense-driven defense. Visibility without surveillance.**
-
----
-
-## 🔖 Status & Badges
-![Private Repo](https://img.shields.io/badge/visibility-private-800080)
-![Python](https://img.shields.io/badge/language-Python3-blue)
-![Platform](https://img.shields.io/badge/platform-Linux-lightgrey)
 ![License](https://img.shields.io/badge/license-MIT-success)
-![Stage](https://img.shields.io/badge/version-v0.1--dev-orange)
+![Platform](https://img.shields.io/badge/platform-Linux-lightgrey)
+![Language](https://img.shields.io/badge/language-Python3-blue)
+![Stage](https://img.shields.io/badge/state-Private--Development-orange)
 
 ---
 
-## 🎯 Mission
+## 🔍 Description
 
-AI Usage Watchdog provides **endpoint visibility** into AI/LLM usage,
-generating **privacy-preserving audit logs** for authorised security operations.
+AI Usage Watchdog is a lightweight **Linux-first endpoint agent** that detects and logs AI / LLM usage on the host in a **privacy-preserving** manner.
 
-Designed to complement:
+It complements:
 
 | Tool | Purpose |
 |---|---|
-| **AI Endpoint Guard** | Block unsafe AI actions |
-| **AI Breach Monitor** | Detect abnormal AI activity |
+| **AI Endpoint Guard** | Enforces safe AI usage rules |
+| **AI Breach Monitor** | Detects abnormal AI behaviour |
 | **AI Usage Watchdog** | Visibility & governance |
 
-Together, they form the **Red Specter Purple Team AI Defense Suite**.
+Together, these form the **Red Specter Purple Team AI Defense Suite**.
 
 ---
 
-## ✨ Features (v0.1 – Agent MVP)
+## ✨ Features
 
-| Capability | Status |
+| Feature | Status |
 |---|:---:|
-| Linux-first agent (Python + psutil) | ✔ |
-| Real-time AI usage detection | ✔ |
-| Signature-based detection | ✔ |
-| JSONL logs (SIEM-ready) | ✔ |
-| CLI viewer dashboard | 🚧 v0.2 |
-| Fleet management + policies | ⏳ v0.3 |
+| AI usage detection (runtime signatures) | ✔ |
+| JSONL logging for SIEM ingestion | ✔ |
+| Lightweight & agent-based | ✔ |
+| No prompt or content capture | ✔ |
+| Local event viewer (`watchdog_view`) | 🚧 v0.2 |
+| Policy engine + fleet aggregation | ⏳ v0.3 |
 
 ---
 
 ## 🚀 Quick Start
 
-Install dependency:
+Install requirement:
 
 ```bash
 sudo apt install python3-psutil
-# or
-pip install --user psutil
 Run a single scan:
 
 cd agent
@@ -62,59 +57,53 @@ Run continuously:
 
 ./redspecter_ai_usage_watchdog.py --interval 15
 
-
-View logs with the dashboard tool:
-
-cd tools
-./watchdog_view.py
-
-📂 Log Path
-
-Events stored as JSONL:
-
+📝 Logs
 ~/.redspecter_ai_watchdog/logs/events.jsonl
 
 
+Each event is a JSON object including:
+
+Timestamp
+
+PID + process name
+
+Username & hostname
+
+Matched signature (risk/category)
+
 Privacy posture:
 
-❌ No prompt contents ever logged
+❌ No prompt text
 
-❌ No document/file contents collected
+❌ No file/document contents
 
-✔ Only process metadata & signature matches
+✔ Only metadata
 
-🗺 Roadmap
-Version	Focus	Status
-v0.1	Core agent + logging	✔
-v0.2	Dashboard + export helpers	🚧
-v0.3	Policies + aggregation	⏳
-v1.0	Hardened public release	🔜
+🧭 Roadmap
+Version	Goal	Status
+v0.1 (Current)	Agent MVP	✔
+v0.2	Dashboard viewer + SIEM export	🚧
+v0.3	Policies + central aggregation	⏳
+v1.0	Public hardened release	🔜
 
 See ROADMAP.md
- for details.
+ for full details.
 
-🧩 Purple Team Strategy
+🛡️ Purple Team Mission
 
-Use offensive insight to design defensive controls:
+Offense-driven defense.
 
-Detect misuse
+We use adversarial insight to design better defensive controls.
 
-Govern usage
-
-Protect users & org assets
-
-This is lawful, authorised defensive cyber operations only.
+Always authorized. Always ethical.
 
 ❤️ Support Red Specter
 
-Help fuel development of free, ethical cybersecurity tools:
+☕ Buy me a coffee: https://www.buymeacoffee.com/redspecter
 
-☕ Buy Me a Coffee — (add link when ready)
+💼 PayPal: https://paypal.me/richardbarron1747
 
-💸 PayPal — (add link when ready)
+Your support helps me build more tools like this — thank you!
 
-📜 License
-
-MIT License — see LICENSE
-
-© 2025 Richard Barron — All Rights Reserved
+Always authorized. Always ethical. Always learning. ⚔️
+Stay Spectral. 👁‍🗨
