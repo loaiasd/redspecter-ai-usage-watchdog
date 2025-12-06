@@ -119,19 +119,6 @@ Later, when we capture a screenshot, we’ll drop it right below as:
 - [x] Keep emojis if you like — adds clarity
 - [x] No edits needed — already formatted for GitHub Markdown
 
----
-
-Whenever you’re ready, we move to:
-🔹 Stats bar  
-or  
-🔹 Logfile flag support
-
-Which one do you want next?  
-Reply: **Stats** or **Flag** ⚔️👁‍🗨
-
-
-
-
 
 
 
