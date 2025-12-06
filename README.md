@@ -8,7 +8,8 @@ Part of the Red Specter Purple Team AI Defense Suite
 ![License](https://img.shields.io/badge/license-MIT-success)
 ![Platform](https://img.shields.io/badge/platform-Linux-lightgrey)
 ![Language](https://img.shields.io/badge/language-Python3-blue)
-![Stage](https://img.shields.io/badge/state-Private--Development-orange)
+![Version](https://img.shields.io/badge/version-v0.1--Beta-blueviolet)
+![Status](https://img.shields.io/badge/state-Public-success)
 
 ---
 
