@@ -1,30 +1,25 @@
-<p align="center">
-  <img src="https://raw.githubusercontent.com/RichardBarron27/red-specter-offensive-framework/main/assets/red-specter-logo.png" alt="Red Specter Logo" width="200">
-</p>
+<img src="https://raw.githubusercontent.com/RichardBarron27/branding/main/red-specter-logo.png" width="250" alt="Red Specter Logo" />
 
 # 🛡️ Red Specter – AI Usage Watchdog
-Part of the Red Specter Purple Team AI Defense Suite
+Part of the **Red Specter Purple Team AI Defense Suite**
 
-![License](https://img.shields.io/badge/license-MIT-success)
-![Platform](https://img.shields.io/badge/platform-Linux-lightgrey)
-![Language](https://img.shields.io/badge/language-Python3-blue)
-![Version](https://img.shields.io/badge/version-v0.1--Beta-blueviolet)
-![Status](https://img.shields.io/badge/state-Public-success)
+![License](https://img.shields.io/badge/License-MIT-green)
+![Platform](https://img.shields.io/badge/Platform-Linux-lightgrey)
+![Language](https://img.shields.io/badge/Python-3.10+-blue)
+![Version](https://img.shields.io/badge/Version-v0.2-orange)
+![Status](https://img.shields.io/badge/Status-Active-success)
 
-> A privacy-first Linux agent for monitoring AI usage on endpoints.
+A privacy-first Linux agent for monitoring AI usage on endpoints with zero content capture.
 
 ---
 
-
-
 ## 🔍 Description
+AI Usage Watchdog is a lightweight Linux-first endpoint agent that detects and logs AI / LLM usage on the host in a **privacy-preserving** manner.
 
-AI Usage Watchdog is a lightweight **Linux-first endpoint agent** that detects and logs AI / LLM usage on the host in a **privacy-preserving** manner.
-
-It complements:
+It complements other Red Specter AI Security Suite tools:
 
 | Tool | Purpose |
-|---|---|
+|------|---------|
 | **AI Endpoint Guard** | Enforces safe AI usage rules |
 | **AI Breach Monitor** | Detects abnormal AI behaviour |
 | **AI Usage Watchdog** | Visibility & governance |
@@ -36,36 +31,33 @@ Together, these form the **Red Specter Purple Team AI Defense Suite**.
 ## ✨ Features
 
 | Feature | Status |
-|---|:---:|
+|--------|--------|
 | AI usage detection (runtime signatures) | ✔ |
 | JSONL logging for SIEM ingestion | ✔ |
-| Lightweight & agent-based | ✔ |
-| No prompt or content capture | ✔ |
-| Local event viewer (`watchdog_view`) | 🚧 v0.2 |
+| Lightweight agent | ✔ |
+| Zero prompt/content capture | ✔ |
+| Local event dashboard (`watchdog_dashboard.py`) | 🚧 v0.2 |
 | Policy engine + fleet aggregation | ⏳ v0.3 |
 
 ---
 
-## Quick Start
+## 🚀 Quick Start
 
 ### Install dependency
-
 ```bash
 sudo apt install python3-psutil
 Run a single scan (debug)
-bash
-Copy code
 cd agent
 ./redspecter_ai_usage_watchdog.py --once --debug
+
 Run continuously
-bash
-Copy code
 ./redspecter_ai_usage_watchdog.py --interval 15
-Logs
-text
-Copy code
+
+Logs stored at
 ~/.redspecter_ai_watchdog/logs/events.jsonl
-Each event is a JSON object including:
+
+
+Each event includes:
 
 Timestamp
 
@@ -81,26 +73,26 @@ Privacy posture:
 
 ❌ No file/document contents
 
-✅ Only metadata
+✔ Only metadata captured
 
 🔍 Live TUI Dashboard (v0.2)
-bash
-Copy code
 cd tools
 ./watchdog_dashboard.py
+
+
 Features:
 
-Auto-refreshing view (every 3s)
+Auto-refreshing (every 3s)
 
-Risk-based color coding (LOW / MED / HIGH)
+Color-coded severity
 
-Keyboard controls:
+Keyboard navigation
 
 q → quit
 
-r → refresh immediately
+r → force refresh
 
-This provides a quick SOC-style view into AI usage on the endpoint.
+A lightweight SOC-style view into real-time AI usage on the endpoint.
 
 🗺 Roadmap
 Version	Goal	Status
@@ -109,20 +101,20 @@ v0.2	Dashboard viewer + SIEM export	🚧
 v0.3	Policies + central aggregation	⏳
 v1.0	Public hardened release	⏳
 
-See ROADMAP.md for full details.
+See ROADMAP.md for full intent & backlog.
 
 🎯 Purple Team Mission
+
 Offense-driven defense.
 We use adversarial insight to design better defensive controls.
 
 Always authorized. Always ethical.
+Red Specter defends by thinking like an attacker.
 
 ❤️ Support Red Specter
-If you find this useful and want to support further development:
 
-PayPal: https://paypal.me/richardbarron1747
+If you find this useful and want to support future releases:
 
-Your support helps me build more tools like this — thank you!
+👉 PayPal: https://paypal.me/richardbarron1747
 
-
-
+Every contribution helps build more tools like this — thank you!
