@@ -90,8 +90,8 @@ Features:
 - Color-coded severity  
 - Keyboard controls
 
+![AI Usage Watchdog Screenshot](https://github.com/user-attachments/assets/f8326e38-b900-4e8d-8e4f-1ddf0e91981b)
 
-https://github.com/user-attachments/assets/f8326e38-b900-4e8d-8e4f-1ddf0e91981b
 
 
 A real-time terminal dashboard to view AI usage events:
