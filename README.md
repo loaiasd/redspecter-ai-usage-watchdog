@@ -2,6 +2,7 @@
   <img src="https://raw.githubusercontent.com/RichardBarron27/red-specter-offensive-framework/main/assets/red-specter-logo.png" alt="Red Specter Logo" width="200">
 </p>
 
+
 # 🛡️ Red Specter – AI Usage Watchdog
 Part of the Red Specter Purple Team AI Defense Suite
 
