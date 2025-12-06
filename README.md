@@ -134,7 +134,6 @@ Always authorized. Always ethical.
 
 ❤️ Support Red Specter
 
-☕ Buy me a coffee: https://www.buymeacoffee.com/redspecter
 
 💼 PayPal: https://paypal.me/richardbarron1747
 
