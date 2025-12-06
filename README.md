@@ -1,5 +1,3 @@
-> A privacy-first Linux agent for monitoring AI usage on endpoints.
-
 <p align="center">
   <img src="https://raw.githubusercontent.com/RichardBarron27/red-specter-offensive-framework/main/assets/red-specter-logo.png" alt="Red Specter Logo" width="200">
 </p>
@@ -12,6 +10,10 @@ Part of the Red Specter Purple Team AI Defense Suite
 ![Language](https://img.shields.io/badge/language-Python3-blue)
 ![Version](https://img.shields.io/badge/version-v0.1--Beta-blueviolet)
 ![Status](https://img.shields.io/badge/state-Public-success)
+
+> A privacy-first Linux agent for monitoring AI usage on endpoints.
+
+---
 
 ---
 
