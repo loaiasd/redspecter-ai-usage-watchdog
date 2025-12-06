@@ -1,3 +1,5 @@
+> A privacy-first Linux agent for monitoring AI usage on endpoints.
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/RichardBarron27/red-specter-offensive-framework/main/assets/red-specter-logo.png" alt="Red Specter Logo" width="200">
 </p>
