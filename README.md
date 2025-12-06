@@ -110,11 +110,7 @@ Small, professional, discoverable.
 
 Later, when we capture a screenshot, we’ll drop it right below as:
 
-Preview
-( screenshot image )
 
-yaml
-Copy code
 
 ---
 
