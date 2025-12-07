@@ -126,3 +126,5 @@ If you find this project useful, please consider:
 👉 PayPal: https://paypal.me/richardbarron1747
 
 Every contribution helps build more tools like this — thank you!
+
+Notice for Users: If you cloned this and found it useful, please consider starring the repo! Stars help with visibility and let me know which projects to maintain.
